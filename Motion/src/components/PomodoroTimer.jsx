@@ -8,8 +8,8 @@ import progressRabbit from "../assets/Progress.png";
 
 export default function PomodoroTimer() {
   // 60 min focus, 5 min break (in seconds). Adjust WORK_DURATION for testing.
-  const WORK_DURATION = 0.1 * 60; // e.g. 6 seconds for quick demo
-  const BREAK_DURATION = 0.1 * 60; // 5 minutes
+  const WORK_DURATION = 60 * 60; // e.g. 6 seconds for quick demo
+  const BREAK_DURATION = 50 * 60; // 5 minutes
 
   // ─── State ──────────────────────────────────────────────────────────────────
   const [secondsLeft, setSecondsLeft] = useState(WORK_DURATION);
