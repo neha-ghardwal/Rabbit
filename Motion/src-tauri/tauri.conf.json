@@ -1,0 +1,51 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "motion",
+  "version": "0.1.0",
+  "identifier": "com.motion.app",
+  "build": {
+    "beforeDevCommand": "npm run dev",
+    "devUrl": "http://localhost:5173",
+    "beforeBuildCommand": "npm run build",
+    "frontendDist": "../dist"
+  },
+  "app": {
+    "windows": [
+      {
+        "label": "main",
+        "title": "Rabbit",
+        "width": 700,
+        "height": 600,
+        "resizable": false,
+        "fullscreen": false
+      },
+      {
+        "label": "widget",
+        "title": "Rabbit Widget",
+        "url": "index.html#/widget",
+        "width": 200,
+        "height": 200,
+        "minWidth": 200,
+        "minHeight": 200,
+        "resizable": false,
+        "decorations": false,
+        "transparent": true,
+        "alwaysOnTop": true,
+        "visible": false
+      }
+    ],
+    "security": {
+      "csp": "default-src 'self'"
+    }
+  },
+  "bundle": {
+    "active": true,
+    "targets": "all",
+    "icon": [
+      "icons/icon.icns",
+      "icons/icon.ico"
+    ],
+    "resources": [],
+    "externalBin": []
+  }
+}
