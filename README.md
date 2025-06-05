@@ -1,6 +1,6 @@
 # 🐇 Rabbit Desktop App
 
-**Rabbit** is a blazing-fast, lightweight desktop app built using **React.js** and **Tauri**. It brings your productivity tools to the desktop with native performance and a sleek UI.
+**Rabbit** is a blazing-fast, lightweight pomodoro desktop app built using **React.js** and **Tauri**. It brings your productivity tools to the desktop with native performance and a sleek UI.
 
 ---
 
