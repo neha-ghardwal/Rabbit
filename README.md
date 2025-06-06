@@ -19,4 +19,4 @@
 - [React](https://reactjs.org/)
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 - [Vite](https://vitejs.dev/) (optional, but recommended for faster dev)
-- [Tauri](https://tauri.app/) For wrapping the app
+- [Tauri](https://tauri.app/) For wrapping the website into desktop app
