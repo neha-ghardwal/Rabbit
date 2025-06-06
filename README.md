@@ -17,6 +17,6 @@
 ## 🛠️ Tech Stack
 
 - [React](https://reactjs.org/)
-- [Tauri](https://tauri.app/)
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 - [Vite](https://vitejs.dev/) (optional, but recommended for faster dev)
+- [Tauri](https://tauri.app/) For wrapping the app
